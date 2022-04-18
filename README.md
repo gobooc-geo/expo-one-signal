@@ -1,4 +1,4 @@
-# React Native Expo integration OneSignal
+# React Native Expo integration to OneSignal Project Configs
 
 ### React Native Expo
 *Expo project template:*
