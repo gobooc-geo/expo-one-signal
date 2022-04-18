@@ -4,7 +4,7 @@
 *Expo project template:*
 ![image](./screenshots/rn-expo-project-setup.png)
 
-*Integrate OneSignal to RN Expo + EAS using this guidelines/document:*
+*OneSignal Integration to RN Expo + EAS using this guidelines/document:*
 [iOS Credentials Guide: OneSignal + EAS](https://github.com/OneSignal/onesignal-expo-plugin/blob/main/IOS_CREDENTIALS_EAS.md#4-add-the-profiles-to-your-credentialsjson-file)
 
 *IOS certificate using:*
