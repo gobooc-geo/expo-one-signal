@@ -24,6 +24,16 @@
 
 ![image](./screenshots/dev-apple-profiles.png)
 
+*RN Expo Project configs, please view the following files:*
+
+```
+app.config.js
+app.json
+credentials.json
+eas.json
+package.json
+```
+
 
 # Expo/EAS IOS build error
 *Error screenshots:*
