@@ -23,4 +23,3 @@
 # Expo/EAS IOS build error
 *Error screenshots:*
 ![image](./screenshots/expo-eas-ios-build-error.png)
-![image](./screenshots/ios-build-error.png)
