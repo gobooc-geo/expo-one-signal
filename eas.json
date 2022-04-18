@@ -1,0 +1,55 @@
+{
+    "cli": {
+      "version": ">= 0.47.0"
+    },
+    "build": {
+      "production": {
+        "releaseChannel": "production",
+        "env": {
+          "APP_ENV": "production"
+        },
+        "ios": {
+          "cocoapods": "1.11.3",
+          "credentialsSource": "local",
+          "buildConfiguration": "Release"
+        }
+      },
+      "staging": {
+        "releaseChannel": "staging",
+        "env": {
+          "APP_ENV": "staging"
+        },
+        "ios": {
+          "cocoapods": "1.11.3",
+          "credentialsSource": "local",
+          "buildConfiguration": "Release"
+        }
+      },
+      "development": {
+        "developmentClient": true,
+        "releaseChannel": "development",
+        "env": {
+          "APP_ENV": "development"
+        },
+        "ios": {
+          "cocoapods": "1.11.3",
+          "credentialsSource": "local",
+          "buildConfiguration": "Release"
+        }
+      }
+    },
+    "submit": {
+      "production": {
+        "ios": {
+          "appleId": "khalida@gobooc.com",
+          "ascAppId": "1491913583",
+          "appleTeamId": "AU49Q74B3K"
+        },
+        "android": {
+          "serviceAccountKeyPath": "./secrets/pc-api-6805962296585539822-358-510a6d3a3765.json",
+          "track": "internal"
+        }
+      }
+    }
+  }
+  

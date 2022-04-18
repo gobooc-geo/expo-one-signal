@@ -1,0 +1,47 @@
+{
+    "name": "gobooc-mobile-webview",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject",
+      "build:android-dev": "eas build --platform android --profile development --clear-cache",
+      "build:android-stg": "eas build --platform android --profile staging --clear-cache",
+      "build:android-prod": "eas build --platform android --profile production --clear-cache",
+      "build:ios-dev": "EXPO_NO_CAPABILITY_SYNC=1 eas build --platform ios --profile development --clear-cache",
+      "build:ios-stg": "EXPO_NO_CAPABILITY_SYNC=1 eas build --platform ios --profile staging --clear-cache",
+      "build:ios-prod": "EXPO_NO_CAPABILITY_SYNC=1 eas build --platform ios --profile production --clear-cache",
+      "submit:android": "eas submit -p android --latest",
+      "submit:ios": "eas submit -p ios --latest"
+    },
+    "dependencies": {
+      "@react-native-firebase/analytics": "^14.7.0",
+      "@react-native-firebase/app": "^14.7.0",
+      "@react-navigation/native": "^6.0.8",
+      "@react-navigation/stack": "^6.1.1",
+      "expo": "~44.0.0",
+      "expo-constants": "~13.0.1",
+      "expo-status-bar": "~1.2.0",
+      "expo-updates": "~0.11.6",
+      "lottie-react-native": "^5.0.1",
+      "onesignal-expo-plugin": "^1.0.0",
+      "react": "17.0.1",
+      "react-dom": "17.0.1",
+      "react-native": "0.64.3",
+      "react-native-onesignal": "^4.3.7",
+      "react-native-safe-area-context": "^4.2.4",
+      "react-native-screens": "~3.10.1",
+      "react-native-web": "0.17.1",
+      "react-native-webview": "11.15.0",
+      "react-native-gesture-handler": "~2.1.0",
+      "expo-dev-client": "~0.8.4"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+  

@@ -1,0 +1,44 @@
+{
+    "expo": {
+      "name": "Gobooc",
+      "slug": "gobooc",
+      "version": "3.2.6",
+      "orientation": "portrait",
+      "icon": "./assets/icon.png",
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      },
+      "updates": {
+        "fallbackToCacheTimeout": 0
+      },
+      "assetBundlePatterns": ["**/*"],
+      "ios": {
+        "supportsTablet": true,
+        "bundleIdentifier": "com.gobooc.app",
+        "googleServicesFile": "./assets/keys/GoogleService-Info.plist",
+        "buildNumber": "1"
+      },
+      "android": {
+        "package": "com.gobooc",
+        "googleServicesFile": "./assets/keys/google-services.json",
+        "versionCode": 43,
+        "adaptiveIcon": {
+          "foregroundImage": "./assets/adaptive-icon.png",
+          "backgroundColor": "#ffffff"
+        }
+      },
+      "plugins": [
+        "@react-native-firebase/app",
+        [
+          "onesignal-expo-plugin",
+          {
+            "mode": "production",
+            "devTeam": "AU49Q74B3K"
+          }
+        ]
+      ]
+    }
+  }
+  
