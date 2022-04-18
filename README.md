@@ -2,6 +2,7 @@
 
 ### React Native Expo
 *Expo project template:*
+
 ![image](./screenshots/rn-expo-project-setup.png)
 
 *OneSignal Integration to RN Expo + EAS using this guidelines/document:*
@@ -9,17 +10,22 @@
 
 *Created IOS certificate using:*
 [Push Notification Certificate Wizard (OneSignal)](https://onesignal.com/provisionator)
+
 ![image](./screenshots/created-ios-push-notif-cert-using-one-signal-provisioning-tool.png)
 
 ### Apple Developer (Certificates, Identifiers & Profiles)
 *certificates screenshot:*
+
 ![image](./screenshots/dev-apple-certificates.png)
 *identifiers screenshot:*
+
 ![image](./screenshots/dev-apple-identifiers.png)
 *profiles screenshot:*
+
 ![image](./screenshots/dev-apple-profiles.png)
 
 
 # Expo/EAS IOS build error
 *Error screenshots:*
+
 ![image](./screenshots/expo-eas-ios-build-error.png)
